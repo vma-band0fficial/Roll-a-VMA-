@@ -1,4 +1,3 @@
-from pathlib import Path
 
 html = r'''<!DOCTYPE html>
 <html lang="en">
@@ -427,7 +426,7 @@ updateUI();
 </script>
 </body>
 </html>
-'''
+
 
 path = Path("/mnt/data/roll_a_vma_rewrite.html")
 path.write_text(html, encoding="utf-8")
